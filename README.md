@@ -1,5 +1,5 @@
 # task-manager
-## Task manager application made with Spring and Angular.
+## Task manager application made with Spring, MongoDB and Angular.
 ### This application can be used by individuals or by teams.
 
 
@@ -30,3 +30,20 @@ To install the project follow this tutorial.
     *  You can also download [VS Code](https://code.visualstudio.com/download), a modern text editor that supports hudrends of plugins to make your life easier.
 
 Now you are all set and the project should run as intended.
+
+## Docker
+
+If you want to run the application in docker containers you have to follow those steps:
+* Download [Docker](https://www.docker.com/products/docker-desktop).
+* Use `docker pull mongo` to get the image for Mongo. More information here, [Mongo-Docker](https://hub.docker.com/_/mongo).
+  * Run `docker run -d -p 27017:27017 --name=name-of-your-mongo-container mongo:latest`
+* Create the *Dockerfile* for frontend and backend or download the files that I created.
+* For frontend you have to:
+  * Build the application with `ng build`.
+  * Run `docker build -t name-of-your-image .`. This command will create a docker image.
+  * Run `docker run -d --name=name-of-your-container -p port:port name-of-your-image`. Port can be 80:80.
+* For backend you have to:
+  * Build the application with `mvn install` if you don't have a **.jar** yet.
+  * Run `docker build -t name-of-your-image .`
+  * Run `docker run -d --name=name-of-your-container -p port:port name-of-your-image`. Port can be 808:8080.
+Now you should have 3 images, for frontend, backend and for mongo and 3 containers for each of them, and the application should run.
