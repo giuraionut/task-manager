@@ -62,3 +62,4 @@ Now you should have 3 images, for frontend, backend and for mongo and 3 containe
 
 # Angular
 * Angular is a powerful JavaScript framework. You can read more about it on the official website: [Angular](https://angular.io/).
+* Angular allows you to build modern applications for any deployment target. It reaches very high speeds and has a lot of support by communities and IDEs.
