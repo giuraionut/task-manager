@@ -1,2 +1,5 @@
 # task-manager
-A task manager made with Spring and Angular.
+## Task manager application made with Spring and Angular.
+### This application can be used by individuals or by teams.
+
+
