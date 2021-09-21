@@ -5,7 +5,7 @@
 ![](https://github.com/giuraionut/task-manager/blob/main/presentation%20(1).gif)
 
 
-## Installation
+# Installation
 
 To install the project follow this tutorial.
 
@@ -50,9 +50,9 @@ If you want to run the application in docker containers you have to follow those
 
 Now you should have 3 images, for frontend, backend and for mongo and 3 containers for each of them, and the application should run.
 
-## Technologies used.
+# Implementation
 
-# MongoDB and Spring
+## MongoDB and Spring
 * MongoDB is a document-oriented database, also known as *NOSQL* database. Mongo uses **JSON** document structure with optional schemas.
 * Mongo's synergy with Spring is great. Interacting with the database through *repositories* is really simple and intuitive.
   ```
@@ -66,6 +66,8 @@ Now you should have 3 images, for frontend, backend and for mongo and 3 containe
 # Angular
 * Angular is a powerful JavaScript framework. You can read more about it on the official website: [Angular](https://angular.io/).
 * Angular allows you to build modern applications for any deployment target. It reaches very high speeds and has a lot of support by communities and IDEs.
+
+# Features
 
 ## API features
 * Secured using **JWT** ( json web token ) for authentication.
