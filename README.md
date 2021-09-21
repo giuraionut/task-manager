@@ -2,8 +2,6 @@
 ## Task manager application made with Spring, MongoDB and Angular.
 ### This application can be used by individuals or by teams.
 
-
-
 ## Installation
 
 To install the project follow this tutorial.
@@ -49,13 +47,18 @@ If you want to run the application in docker containers you have to follow those
 
 Now you should have 3 images, for frontend, backend and for mongo and 3 containers for each of them, and the application should run.
 
-
 ## Project details
 
-# MongoDB
+# MongoDB and Spring
 * MongoDB is a document-oriented database, also known as *NOSQL* database. Mongo uses **JSON** document structure with optional schemas.
 * Mongo's synergy with Spring is great. Interacting with the database through *repositories* is really simple and intuitive.
   ```
   Integer countByResponsibleIdAndIsPrivateAndIsOpen(String responsibleId, Boolean isPrivate, Boolean isOpen);
   ```
-  *The snippet above does exactly what you think it does: it returns the sum of all documents by *responsibleId* that have the *isPrivate* and *isOpen* fields set either true or false and
+  * The snippet above does exactly what you think it does: it returns the sum of all documents by *responsibleId* that have the *isPrivate* and *isOpen* fields set either true or false. It is that simple to create your own custom methods if you want to interogate the database for specific data.
+  * Also you already have a lot of methods for interogation which saves so much time.
+
+* Spring is a Java framework that can be used by any Java application. You can read more about it here: [Spring](https://spring.io/).
+
+# Angular
+* Angular is a powerful JavaScript framework. You can read more about it on the official website: [Angular](https://angular.io/).
