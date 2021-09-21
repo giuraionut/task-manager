@@ -48,3 +48,14 @@ If you want to run the application in docker containers you have to follow those
   * Run `docker run -d --name=name-of-your-container -p port:port name-of-your-image`. Port can be 808:8080.
 
 Now you should have 3 images, for frontend, backend and for mongo and 3 containers for each of them, and the application should run.
+
+
+## Project details
+
+# MongoDB
+* MongoDB is a document-oriented database, also known as *NOSQL* database. Mongo uses **JSON** document structure with optional schemas.
+* Mongo's synergy with Spring is great. Interacting with the database through *repositories* is really simple and intuitive.
+  ```
+  Integer countByResponsibleIdAndIsPrivateAndIsOpen(String responsibleId, Boolean isPrivate, Boolean isOpen);
+  ```
+  *The snippet above does exactly what you think it does: it returns the sum of all documents by *responsibleId* that have the *isPrivate* and *isOpen* fields set either true or false and
