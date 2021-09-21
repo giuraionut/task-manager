@@ -50,7 +50,7 @@ If you want to run the application in docker containers you have to follow those
 
 Now you should have 3 images, for frontend, backend and for mongo and 3 containers for each of them, and the application should run.
 
-## Project details
+## Technologies used.
 
 # MongoDB and Spring
 * MongoDB is a document-oriented database, also known as *NOSQL* database. Mongo uses **JSON** document structure with optional schemas.
@@ -66,3 +66,18 @@ Now you should have 3 images, for frontend, backend and for mongo and 3 containe
 # Angular
 * Angular is a powerful JavaScript framework. You can read more about it on the official website: [Angular](https://angular.io/).
 * Angular allows you to build modern applications for any deployment target. It reaches very high speeds and has a lot of support by communities and IDEs.
+
+## API features
+* Secured using **JWT** ( json web token ) for authentication.
+* Secured using **method security** with **ROLES** so only certain users can access certain resources.
+* Performs all the **CRUD** operations.
+* Uses **Web Sockets** to implement the chat feature and push notification feature.
+  * Chat history is saved in the database.
+  * Notifications are saved in the database.
+* Allows file (image for avatar) upload.
+
+## Frontend features
+* Form validation for user input.
+* Responsive interface suited for desktop and mobile devices.
+* Provides *toasts* for user feedback.
+* Paths are guarded ( can't be accessed without being logged in ).
