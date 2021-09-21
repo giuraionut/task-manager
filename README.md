@@ -46,4 +46,5 @@ If you want to run the application in docker containers you have to follow those
   * Build the application with `mvn install` if you don't have a **.jar** yet.
   * Run `docker build -t name-of-your-image .`
   * Run `docker run -d --name=name-of-your-container -p port:port name-of-your-image`. Port can be 808:8080.
+
 Now you should have 3 images, for frontend, backend and for mongo and 3 containers for each of them, and the application should run.
