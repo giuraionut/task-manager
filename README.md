@@ -20,12 +20,12 @@ To install the project follow this tutorial.
 
 * The backend of this project is built using Java **Spring**. You need a **Java IDE** and **Maven** to run the project.
   * I recommend [IntelliJ IDEA Community edition](https://www.jetbrains.com/idea/), because it is a free friendly IDE.
-* Once you have your IDE ready, open **api** folder as a project and use the following command to start the backend (`mvn spring-boot:run`)
+* Once you have your IDE ready, open **api** folder as a project and use the following command to start the backend (`mvn spring-boot:run`).
 
 ## Frontend
 
 * For the frontend of this project you need **Angular**.
-  * First, you have to install [NodeJS](https://nodejs.org/en/download/)
+  * First, you have to install [NodeJS](https://nodejs.org/en/download/).
   * After you installed **NodeJS** you can navigate to **frontend/src/app** folder and open a command prompt to run the command `ng serve`. This command will start the frontend.
     *  You can also download [VS Code](https://code.visualstudio.com/download), a modern text editor that supports hudrends of plugins to make your life easier.
 
