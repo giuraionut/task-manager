@@ -22,3 +22,5 @@ To install the project follow this tutorial.
 
 * For the frontend of this project you need **Angular**.
   * First, you have to install [NodeJS](https://nodejs.org/en/download/)
+  * After you installed **NodeJS** you can navigate to **frontend/src/app** folder and open a command prompt to run the command `ng serve`. This command will start the frontend.
+    *  Preferably [VS Code](https://code.visualstudio.com/download), because it is a modern 
