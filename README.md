@@ -88,4 +88,4 @@ Now you should have 3 images, for frontend, backend and for mongo and 3 containe
 ## Future improvements
 
 * Group chat ( where multiple team members can chat )
-* Organize tasks by user and by state
+* Organize tasks by user and/or by state and/or by priority
