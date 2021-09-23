@@ -83,3 +83,9 @@ Now you should have 3 images, for frontend, backend and for mongo and 3 containe
 * Responsive interface suited for desktop and mobile devices.
 * Provides *toasts* for user feedback.
 * Paths are guarded ( can't be accessed without being logged in ).
+
+
+## Future improvements
+
+* Group chat ( where multiple team members can chat )
+* Organize tasks by user and by state
