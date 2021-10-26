@@ -1,4 +1,4 @@
-# task-manager
+# Task Manager
 ## Task manager application made with Spring, MongoDB and Angular.
 ### This application can be used by individuals or by teams.
 
