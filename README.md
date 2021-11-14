@@ -5,6 +5,7 @@
 <img src = "https://img.shields.io/badge/ANGULAR-red">
 <img src = "https://img.shields.io/badge/MONGO DB-green">
 </p>
+
 ## Task manager application made with Spring, MongoDB and Angular.
 ### This application can be used by individuals or by teams.
 
